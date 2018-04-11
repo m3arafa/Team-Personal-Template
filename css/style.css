@@ -1,0 +1,320 @@
+/* ------------------------------
+0.0 General Style
+--------------------------------*/
+body {
+    font-family: 'Raleway',sans-serif;
+    position: relative;
+}
+.special-color{
+	color: #f7600e;
+}
+/* ------------------------------
+ 1.1) Section header Style navbar
+--------------------------------*/
+#header .header-content {
+	padding-top: 150px;
+}
+/* for change font section active on navbar */
+.active {
+    font-size: 24px;
+    color: #3498db;
+    text-decoration: none;
+    line-height: 50px;
+}
+.navbar a{
+	color: #fff;
+}
+/*  for change color and opacity of navbar while scrolling */
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.6);
+}
+#header #menu-center a:hover{
+	background-color: #f7600e;
+}
+
+
+/* ------------------------------
+ 1.2) Section header Style content
+--------------------------------*/
+#header {
+	background-image: url("../images/header-bg-dark.jpg");
+    color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 30px;
+    z-index: -1;
+    height: 600px;
+
+}
+
+#header h1{
+   font-size: 36px;
+   font-weight: 300px;
+   font-style: bold;
+   
+}
+#header h5{
+	padding: 5px;
+	font-weight: 300px;
+	line-height: 20px;
+}
+#header .brand{
+	font-size: 26px;
+	font-weight: 300px;
+	font-style: bold;
+	line-height: 24px;
+}
+#header button{
+	padding: 5px 25px;
+	margin: 20px 5px;
+	color: #fff;
+	background: rgba(255,255,255,0.01);
+	border-width: 0.1px;
+	border-color: #bbb;
+	width: 140px;
+}
+#header button:hover{
+	background-color: #f7600e;
+} 
+
+/* ------------------------------
+ 2.1) Section Services Style
+--------------------------------*/
+
+#services {
+	padding: 50px
+}
+#services i{
+  color: #f7600e;
+}
+#services p{
+	padding: 0px 25px;
+}
+
+
+/* ------------------------------
+ 3.1) Section newsletter Style
+--------------------------------*/
+
+#newsletter #email{
+	width: 350px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 30px;
+	padding: 5px 10px;
+}
+#newsletter button{
+	 width: 150px;
+	 height: 30px;
+	 color: #fff;
+	 background-color: #f7600e;
+}
+#newsletter .col-md-12{
+	padding: 50px 300px;
+}
+#newsletter {
+	background-image: url("../images/news-bg-dark.jpg");
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* ------------------------------
+ 4.1) Section Our-works Style
+--------------------------------*/
+
+#our-works .works-content{
+	padding: 60px 300px
+}
+#our-works .col-md-4{
+	padding: 10px 0px;
+}
+#our-works button{
+	color: #000;
+	background-color: #fff;
+	padding: 5px 30px;
+	margin: 60px 0;
+	border-radius: 5px;
+}
+#our-works button:hover{
+	background-color: #f7600e;
+	color: #fff;
+}
+#our-works .works-images{
+	overflow: hidden;
+
+}
+#our-works .portfolio-overlay{
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	position: absolute;
+	background: rgba(247,96,14,0.8);
+	padding: 80px 20px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+#our-works .portfolio-thumb:hover .portfolio-overlay{
+	 opacity: 1;
+     cursor: pointer;
+}
+#our-works .portfolio-thumb .portfolio-overlay button{
+	color: #f7600e;
+	background-color: #fff;
+	padding: 8px 30px;
+	margin: 50px 0;
+	border-radius: 5px;
+}
+
+
+/* ------------------------------
+ 5.1) Section Clients-Say Style
+--------------------------------*/
+#clients-say{
+	background-image: url("../images/client-bg-dark.jpg");
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+
+    color: #fff;
+}
+#clients-say img{
+    max-height: 100%;
+	max-width: 100%;
+	border-radius: 50%;
+	
+}
+#clients-say h4{
+	padding: 20px 180px;
+}
+#clients-say .clients-content{
+	padding: 60px 20px;
+}
+
+/* ------------------------------
+ 6.1) Section Our-Team Style
+--------------------------------*/
+#our-team img{
+	border-radius: 10px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */ 
+}
+#our-team img:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+#our-team .team-header{
+	padding: 60px 220px;
+}
+#our-team .social-icon{
+	padding: 10px 0 15px 0;
+}
+/* ------------------------------
+ 7.1) Section Contact Style
+--------------------------------*/
+#contact{
+	background-image: url("../images/contact-bg-dark.jpg");
+	color: #fff;
+}
+#contact .content{
+	padding: 50px 280px 0 280px;
+}
+#contact .contact-form{
+	margin: 80px 200px;
+}
+#contact .contact-form input{
+	min-width: 100%;
+	padding: 10px 10px;
+	border-radius: 6px;
+}
+#contact .contact-form textarea{
+	min-width: 100%;
+	padding: 10px 10px;
+	border-radius: 6px;
+	margin: 10px 0;	
+}
+#contact .contact-form button{
+	width: 150px;
+	background-color: #f7600e;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 28px;
+
+}
+#contact .social-icon{
+	right: 0;
+	left: 180px;
+}
+.facebook-color{
+	color: #3b5998;
+}
+.twitter-color{
+	color: 	#7fa5bd;
+}
+.google-plus-color{
+	color: #d9432f;
+}
+/* ------------------------------
+ 8.1) Section Footer Style
+--------------------------------*/
+#footer {
+	padding: 20px 0;
+	background-color: #3b434c;
+	color: #ddd;
+}
